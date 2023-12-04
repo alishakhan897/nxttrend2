@@ -1,0 +1,96 @@
+/* Write your CSS code here */
+.header {
+  display: flex;
+  width: 95%;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 15px;
+  padding-top: 20px;
+}
+
+.nxt-trends2 {
+  height: 30px;
+  width: 90px;
+}
+
+.log-out-image {
+  width: 55%;
+}
+.home-about-small-section {
+  display: flex;
+  background-color: rgba(11, 60, 80, 0.3);
+  width: 90%;
+  margin: auto;
+  justify-content: space-between;
+  margin-top: 15px;
+  padding: 15px;
+  border-radius: 8px;
+}
+.home-image-icon {
+  width: 30%;
+}
+.home-div-small {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .nxt-trends2 {
+    height: 50px;
+    width: 200px;
+  }
+  .home-about-small-section {
+    display: none;
+  }
+  .log-out-image {
+    display: none;
+  }
+}
+
+.nav-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text {
+  display: none;
+}
+.for-small-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+
+  width: 50px;
+}
+@media screen and (min-width: 768px) {
+  .text {
+    display: flex inline;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    list-style-type: none;
+  }
+  .for-small-container {
+    display: none;
+  }
+}
+
+.home {
+  color: #475569;
+  font-family: 'Roboto';
+  font-weight: bold;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+.buttonlog {
+  background-color: #0967d2;
+  padding-top: 12px;
+  padding-right: 12px;
+  padding-left: 12px;
+  padding-bottom: 12px;
+  color: white;
+  border-radius: 6px;
+  border: 0px solid transparent;
+  outline: none;
+}
